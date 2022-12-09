@@ -1,0 +1,1 @@
+ gcloud alpha functions deploy hello --entry-point F --runtime go111 --trigger-http   --set-env-vars PROJECT_ID=wproject-365321
