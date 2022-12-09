@@ -1,1 +1,14 @@
+ Examples are demonstrated on the google cloud platform
+Please read terms and conditions before using Google Cloud
+NOTE : you can use this service with 300.00 initial credit but it can be used rapidly  - especially if you are not well versed in the resource utilization
+If you have a google account (e.g. gmail) you may be able to get started initially 
+Best Practice is to “disable” billing for a project after you have completed it. 
+
+Install “go”
+sudo apt-get update
+sudo apt install golang-go
+ 
+ # main run command to deploy your function
  gcloud alpha functions deploy hello --entry-point F --runtime go111 --trigger-http   --set-env-vars PROJECT_ID=wproject-365321
+ 
+ # you can invoke via the curl utility or just enter the provided url in a browser.
