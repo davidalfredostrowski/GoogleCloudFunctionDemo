@@ -13,7 +13,11 @@ Install “go”
 sudo apt-get update
 sudo apt install golang-go
  
- # main run command to deploy your function
- gcloud alpha functions deploy hello --entry-point F --runtime go111 --trigger-http   --set-env-vars PROJECT_ID=wproject-365321
+ 
+git clone https://github.com/davidalfredostrowski/GoogleCloudFunctionDemo 
+ 
+ 
+# main run command to deploy your function
+gcloud alpha functions deploy hello --entry-point F --runtime go111 --trigger-http   --set-env-vars PROJECT_ID=wproject-365321
  
  # you can invoke via the curl utility or just enter the provided url in a browser.
