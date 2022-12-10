@@ -3,6 +3,30 @@ https://youtu.be/tHUrt76t2zE
 
 
 
+Log on to google cloud   (http://cloud.google.com)
+
+
+#check billing
+#activate coulud shell
+
+sudo apt-get update
+sudo apt install golang-go
+
+#Create a project 
+
+#If prior user , select project
+gcloud projects list
+gcloud config set project <project-id>
+
+#“enable” billing  (“billing”=> manage billing accounts=> my projects (right side ‘3-dots’)
+
+#Open the terminal shell
+
+
+
+
+
+
 Examples are demonstrated on the google cloud platform
 Please read terms and conditions before using Google Cloud
 NOTE : you can use this service with 300.00 initial credit but it can be used rapidly  - especially if you are not well versed in the resource utilization
